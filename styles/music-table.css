@@ -1,0 +1,46 @@
+.music_table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  table-layout: auto;
+  font-size: 1em;
+  width: 70%;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.music_table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.music_table th,
+.music_table td {
+  padding: 12px 15px;
+}
+
+.music_table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.music_table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.music_table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.load-btn-container {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: right;
+  padding-top: 1rem;
+}
+
+.btn-load-music {
+  color: #009879;
+}
