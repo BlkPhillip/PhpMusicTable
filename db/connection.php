@@ -1,9 +1,6 @@
 <?php
 
-$servername = "localhost";
-$database = "mix_pro";
-$username = "root";
-$password = "";
+
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $database);
